@@ -1,0 +1,125 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 57px;
+    justify-content: space-between;
+}
+
+
+/*-----------left section start-----------*/
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+}
+
+.hamburger-menu{
+    width: 30px;
+    margin-left: 30px;
+}
+
+.youtube-icon{
+    width: 110px;
+    margin-left: 30px;
+}
+/*-----------left section END-------------*/
+
+
+/*-----------middle section start-----------*/
+.middle-section{
+    flex: 1;
+
+    max-width: 470px;
+    margin-left: 60px;
+   
+    width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-box{
+    flex: 1;
+    width: 0;
+    height: 37px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgb(191, 191, 191);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.04);
+    border-style: solid;
+    
+}
+
+.search-box::placeholder{
+    font-size: 18px;
+    padding-left: 12px;
+    padding-top: 5px;
+    font-weight: 400;
+    color: gray;
+}
+
+.search-button{
+    width: 78px;
+    height: 41px;
+    border-radius: 2px;
+    border-color: rgb(172, 172, 172);
+    border-style: solid;
+    border-width: 1px;
+    margin-left: -1px;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+.search-icon{
+    width: 26px;
+    padding-top: 3px;
+}
+
+.voice-search-icon-button{
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.voice-search-icon{
+    padding-top: 4px;
+    width: 28px;
+}
+/*-----------middle section END-------------*/
+
+
+
+/**----------right section start------------*/
+.right-section{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.upload{
+    width: 29px;
+}
+
+.youtube-apps{
+    width: 29px;
+}
+
+.notifications{
+    width: 29px;
+}
+
+.profile-pic{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+/*-----------right section END--------------*/

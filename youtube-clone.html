@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="cssfile/body.css">
+    <link rel="stylesheet" href="cssfile/header.css">
+    <link rel="stylesheet" href="cssfile/common.css">
+    <link rel="stylesheet" href="cssfile/sidebar.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-sec">
+            <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+            <img src="icons/youtube-logo.svg" class="youtube-logo">
+        </div>
+        <div class="middle-sec">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-button">
+                <img src="icons/search.svg" alt="" class="search-button-img">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-icon-button">
+                <img src="icons/voice-search-icon.svg" alt="" class="voice-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-sec">
+            <div class="upload-icon-container">
+                <img src="icons/upload.svg" alt="" class="upload">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-container">
+                <img src="icons/youtube-apps.svg" alt="" class="youtube-apps">
+                <div class="tooltip">youtube app</div>
+            </div>
+         
+            <div class="notifications-container">
+                <img src="icons/notifications.svg" alt="" class="notifications">
+                <div class="no-notification">
+                    3
+                </div>
+                <div class="tooltip">notifications</div>
+            </div>
+            
+            <div class="profile-pic-container">
+                <img src="profile-pic/pp1.jpg" class="profile-pic" alt="">
+                <div class="tooltip">Profile</div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="sidebar">
+        
+       <div class="sidebar-link">
+        <a href="http://127.0.0.1:5500/youtube-clone.html">
+            <img src="icons/home.svg" alt="">
+        </a>
+            
+            <div>Home</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="">
+            <div>Explore</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <div>Subsriptions</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="">
+            <div>Originals</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/library.svg" alt="">
+            <div>Library</div>
+       </div>
+    </div>
+
+
+    <div class="main-class">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=KZBIsHTz_HE" >
+                    <img class="thumbnail" src="thumbnail/th1.webp" >
+                </a>
+                
+                <div class="video-time">
+                    14:10
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@shiey">
+                        <img class="profile-pic" src="profile-pic/pp1.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp1.jpg" alt="">
+                        <div>
+                            <div class="channel-name">Shiey</div>
+                            <div class="sub">2.6M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Mission To Secured Satellite Broadcast Complex</p>
+                    <p class="two">shiey</p>
+                    <p class="three">653k views . 7 months ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=wLFt4nxkOJo">
+                    <img class="thumbnail" src="thumbnail/th3.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    24:00
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@ItchyBoots">
+                        <img class="profile-pic" src="profile-pic/pp3.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp3.jpg" alt="">
+                        <div>
+                            <div class="channel-name">Itchy Boots</div>
+                            <div class="sub">2.2M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Riding to KASHMIR with a MILITARY CONVOY</p>
+                    <p class="two">Itchy Boots</p>
+                    <p class="three">1.4M views . 5 months ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=5lb4DUPXTao">
+                    <img class="thumbnail" src="thumbnail/th2.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    20:10
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@SonySAB">
+                        <img class="profile-pic" src="profile-pic/pp2.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp2.jpg" alt="">
+                        <div>
+                            <div class="channel-name">Sony SAB</div>
+                            <div class="sub">90M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Tarak Meheta Ka Ooltah Chashma - Episode 586</p>
+                    <p class="two">Sony SAB</p>
+                    <p class="three">5M views . 1.5 years ago</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=nmSgGsqFYGw">
+                    <img class="thumbnail" src="thumbnail/th4.webp" alt="">
+                </a>
+                
+
+                <div class="video-time">
+                    5:40
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@shiey">
+                        <img class="profile-pic" src="profile-pic/pp1.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp1.jpg" alt="">
+                        <div>
+                            <div class="channel-name">Shiey</div>
+                            <div class="sub">2.6M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Journey Across Bosnia & Herzegovina | Part 4</p>
+                    <p class="two">shiey</p>
+                    <p class="three">1.3M views . 2 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=O6dG7anDD-k">
+                    <img class="thumbnail" src="thumbnail/th5.webp" alt="">
+                </a>
+               
+                <div class="video-time">
+                    13:00
+                </div>
+
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@HarmenHoek">
+                        <img class="profile-pic" src="profile-pic/pp4.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp4.jpg" alt="">
+                        <div>
+                            <div class="channel-name">Harmen Hoek</div>
+                            <div class="sub">211k subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Silent Hiking in New Zerland for 7 days</p>
+                    <p class="two">Harmen Hoek</p>
+                    <p class="three">133k views . 12 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=vioOIXrOAa0">
+                    <img class="thumbnail" src="thumbnail/th6.webp" alt="">
+                </a>
+
+                <div class="video-time">
+                    3:40
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@gameofthrones">
+                        <img class="profile-pic" src="profile-pic/pp5.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp5.jpg" alt="">
+                        <div>
+                            <div class="channel-name">GameofThrones</div>
+                            <div class="sub">4.7M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">The Cast Remembers | Game of Thrones: Season 8 (HBo)</p>
+                    <p class="two">GameofThrones</p>
+                    <p class="three">27M views . 4 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=WvaYxmnQqoE&t=3s">
+                    <img class="thumbnail" src="thumbnail/th7.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    4:10
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@TheFlyingDutchMan8K">
+                        <img class="profile-pic" src="profile-pic/pp6.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp6.jpg" alt="">
+                        <div>
+                            <div class="channel-name">The Flying Duchman</div>
+                            <div class="sub">196k subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Lauterbrunne Swizerland A Fairytale Christmas Village 4K 60p</p>
+                    <p class="two">The Flying Duchman</p>
+                    <p class="three">1.5 views . 2 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=4e1GVrmJJM4">
+                    <img class="thumbnail" src="thumbnail/th8.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    9:00
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@thegradecricketer9633">
+                        <img class="profile-pic" src="profile-pic/pp7.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp7.jpg" alt="">
+                        <div>
+                            <div class="channel-name">The Grade Cricketer</div>
+                            <div class="sub">274k subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">KKR Keep Smiling | DC vs KKR</p>
+                    <p class="two">The Grade Cricketer</p>
+                    <p class="three">25k views . 6 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=4e1GVrmJJM4">
+                    <img class="thumbnail" src="thumbnail/th9.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    9:00
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@thegradecricketer9633">
+                        <img class="profile-pic" src="profile-pic/pp8.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp8.jpg" alt="">
+                        <div>
+                            <div class="channel-name">National Geaoraphy India</div>
+                            <div class="sub">1.2M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Why Do We Need Ocean?| Hostile Planet | Full Episode S01-EP1</p>
+                    <p class="two">National Geaoraphy India</p>
+                    <p class="three">3.6M views . 8 monts ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=4e1GVrmJJM4">
+                    <img class="thumbnail" src="thumbnail/th10.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    10:20
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@thegradecricketer9633">
+                        <img class="profile-pic" src="profile-pic/pp9.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp9.jpg" alt="">
+                        <div>
+                            <div class="channel-name">Sourav Joshi Vlogs</div>
+                            <div class="sub">24.2M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Tiger Enti Pass Aagya Dar Gayi Family</p>
+                    <p class="two">Sourav Joshi Vlogs</p>
+                    <p class="three">335k views . 1 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=4e1GVrmJJM4">
+                    <img class="thumbnail" src="thumbnail/th11.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    9:00
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@thegradecricketer9633">
+                        <img class="profile-pic" src="profile-pic/pp10.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp10.jpg" alt="">
+                        <div>
+                            <div class="channel-name">Netflix India</div>
+                            <div class="sub">3M subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Pipni Offiial Music Video | Mismatched | @Mostlysane</p>
+                    <p class="two">Netflix India</p>
+                    <p class="three">3.3M views . 1 year ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=4e1GVrmJJM4">
+                    <img class="thumbnail" src="thumbnail/th12.webp" alt="">
+                </a>
+                
+                <div class="video-time">
+                    9:00
+                </div>
+            </div>
+            <div class="preview"> 
+                <div class="pp">
+                    <a href="https://www.youtube.com/@thegradecricketer9633">
+                        <img class="profile-pic" src="profile-pic/pp11.jpg" alt="">
+                    </a>
+                    <div class="hover-profile">
+                        <img class="profile-pic" src="profile-pic/pp11.jpg" alt="">
+                        <div>
+                            <div class="channel-name">CodeWithHarry</div>
+                            <div class="sub">274k subscibers</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="one">Profitable Web Developer RoadMap Step by step | Freelancing,jobs |</p>
+                    <p class="two">CodeWithHarry</p>
+                    <p class="three">106k views . 22 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>

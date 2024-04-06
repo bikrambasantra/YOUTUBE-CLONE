@@ -1,0 +1,108 @@
+
+.main-class{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 33px;
+    
+}
+.thumbnail{
+    width: 100%;
+    
+}
+
+.profile-pic{
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+
+
+.preview{
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 50px 274px;
+    align-items: top;
+}
+.description{
+    width: 100%;
+   
+    margin-top: 0;
+}
+
+.one{
+    margin-bottom: 11px;
+    
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+}
+.two{
+    color: gray;
+    margin-bottom: 3px;
+    
+}
+.three{
+    color: gray;
+    
+}
+.thumbnail-row{
+    position: relative;
+}
+.video-time{
+    position: absolute;
+    bottom: 10px;
+    right: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: Roboto,arial;
+}
+
+
+.pp{
+    position: relative;
+   
+}
+.hover-profile{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6px;
+    border-style: solid;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    background-color: white;
+    bottom: -10;
+    margin-top: 7px;
+    margin-left: 5px;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s;
+}
+
+.pp:hover .hover-profile{
+    opacity: 1;
+}
+.hover-profile div,
+.hover-profile .channel-name,
+.hover-profile sub{
+    font-size: 14px;
+    font-family: Roboto,arial;
+    white-space: nowrap;
+}
+.channel-name{
+    font-weight: bold;
+}
